@@ -18,7 +18,7 @@ public class entrada {
     }
     @GetMapping({"/saludar"})
     public String saludar(Model model) {
-        //String valorfinal="./saludar";
+       String valorfinal="./saludar";
         model.addAttribute("saludo", "hola mundo");
         return "./saludar";
     }
